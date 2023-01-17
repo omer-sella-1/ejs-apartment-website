@@ -1,0 +1,14 @@
+<%- include("partials/header")-%>
+
+<h1>Optional replacers</h1>
+
+<ol>
+<%for(let i = 0 ; i < replacersArr.length; i++) {%>
+  <li>
+  <h3> <%=replacersArr[i].name%></h3>
+  <p><%=replacersArr[i].details%></p>
+  </li>
+<%}%>
+</ol>
+
+<%- include("partials/footer")-%>
